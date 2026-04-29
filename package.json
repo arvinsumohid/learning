@@ -1,0 +1,17 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runnable examples for software engineering learning topics.",
+  "scripts": {
+    "start:idempotency": "node idempotency/example-app.js",
+    "start:idempotency:3002": "node idempotency/example-app.js --port 3002",
+    "check:idempotency": "node --check idempotency/example-app.js",
+    "start:rate-limiting": "node rate-limiting/example-app.js",
+    "start:rate-limiting:3003": "node rate-limiting/example-app.js --port 3003",
+    "check:rate-limiting": "node --check rate-limiting/example-app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
