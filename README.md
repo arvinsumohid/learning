@@ -10,3 +10,4 @@ This is an Express-based Node.js learning project with runnable examples for API
 
 - [Idempotency](./idempotency/README.md)
 - [Rate Limiting](./rate-limiting/README.md)
+- [Google Authentication](./google-authentication/README.md)

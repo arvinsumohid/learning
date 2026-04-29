@@ -9,9 +9,14 @@
     "check:idempotency": "node --check idempotency/example-app.js",
     "start:rate-limiting": "node rate-limiting/example-app.js",
     "start:rate-limiting:3003": "node rate-limiting/example-app.js --port 3003",
-    "check:rate-limiting": "node --check rate-limiting/example-app.js"
+    "check:rate-limiting": "node --check rate-limiting/example-app.js",
+    "start:google-authentication": "node google-authentication/example-app.js",
+    "start:google-authentication:3004": "node google-authentication/example-app.js --port 3004",
+    "check:google-authentication": "node --check google-authentication/example-app.js"
   },
   "dependencies": {
-    "express": "^4.18.3"
+    "dotenv": "^17.4.2",
+    "express": "^4.18.3",
+    "google-auth-library": "^10.6.2"
   }
 }
