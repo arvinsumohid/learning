@@ -12,7 +12,10 @@
     "check:rate-limiting": "node --check rate-limiting/example-app.js",
     "start:google-authentication": "node google-authentication/example-app.js",
     "start:google-authentication:3004": "node google-authentication/example-app.js --port 3004",
-    "check:google-authentication": "node --check google-authentication/example-app.js"
+    "check:google-authentication": "node --check google-authentication/example-app.js",
+    "start:aws": "node aws/example-app.js",
+    "start:aws:3005": "node aws/example-app.js --port 3005",
+    "check:aws": "node --check aws/example-app.js"
   },
   "dependencies": {
     "dotenv": "^17.4.2",
