@@ -1,0 +1,28 @@
+<button>
+    <span>Save Item</span>
+    <span aria-label="Saving Item" class="spinner">Saving Item<img src="spinner.gif" alt="Saving Item" /></span>
+</button>
+
+<style>
+    button {
+        display: grid;
+        grid-template-areas: "stack";
+        .spinner {
+            grid-area: stack;
+            visibility: hidden;
+        }
+        .text {
+            grid-area: stack;
+        }
+        &.loading {
+            .text {
+                visibility: hidden;
+            }
+            .spinner {
+                visibility: visible;
+            }
+        }
+    }
+</style>
+
+/** button that it will use the content size who are the largest */
